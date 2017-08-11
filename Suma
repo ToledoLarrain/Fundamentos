@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main()
+{
+	int a,b,S;
+	cout<<"ingresar un valor"<<endl;
+	cin>> a;
+	cout<<"ingresar otro valor"<<endl;
+	cin>>b;
+	S=a+b;
+	cout<<"la suma de los valores es: "<<endl;
+	cout<<S;
+	getch();
+	return 0;
+
+}
